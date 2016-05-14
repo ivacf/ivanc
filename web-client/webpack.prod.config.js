@@ -15,7 +15,7 @@ module.exports = {
     new webpack.ProvidePlugin({
       'Promise': 'exports?global.Promise!es6-promise',
       'fetch': 'exports?self.fetch!whatwg-fetch'
-    }),
+    }), 
     new webpack.DefinePlugin({
       API_BASE_URL: JSON.stringify(process.env.API_BASE_URL),
       GA_TRACKING_CODE: JSON.stringify(process.env.GA_TRACKING_CODE),
