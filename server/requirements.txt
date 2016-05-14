@@ -1,15 +1,7 @@
-django==1.9.1
-djangorestframework==3.3.2
-pillow==3.1.1
-django-cors-headers==1.1.0
-requests==2.9.1
-requests-cache==0.4.11
+# Production requirements. This include dev requirements plus some extra ones.
+-r requirements-dev.txt
 
 gunicorn==19.4.5
-whitenoise==3.0
 dj-database-url==0.4.1
 psycopg2==2.6.1
-django-storages==1.4.1
 boto==2.39.0
-
-vcrpy==1.7.4
