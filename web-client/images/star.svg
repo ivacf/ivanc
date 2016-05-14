@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="11px" height="11px" viewBox="0 0 11 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>Star 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-578.000000, -1039.000000)" fill="#FFFFFF">
+            <g id="AndroidBoilerpalte" sketch:type="MSLayerGroup" transform="translate(380.000000, 911.000000)">
+                <g id="Stars" transform="translate(193.000000, 125.000000)" sketch:type="MSShapeGroup">
+                    <g id="star-box">
+                        <polygon id="Star-1" points="10.5 11.7738095 7.26718111 13.473403 7.88459458 9.87360626 5.26918916 7.32421605 8.88359056 6.79901279 10.5 3.52380952 12.1164094 6.79901279 15.7308108 7.32421605 13.1154054 9.87360626 13.7328189 13.473403 "></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,139 @@
+FORMAT: 1A
+HOST: https://api.ivanc.uk
+
+# ivanc API
+
+Simple REST API that provides Ivan's portafolio data for http://ivanc.uk.
+
+# Group Apps
+
+Resources related to applications.
+
+## App Collection [/apps]
+
+### List all apps [GET]
+
++ Response 200 (application/json)
+
+    [
+        {
+            "id": 3,
+            "title": "4oD Android App",
+            "url": "http://ribot.co.uk/work/4od-on-android",
+            "store_url": "https://play.google.com/store/apps/details?id=com.channel4.ondemand",
+            "start_date": "2012-09-01",
+            "end_date": "2013-07-01",
+            "image": "https://ivanc-api.s3.amazonaws.com/images/4od-hero.png",
+            "color": "#1D86AD",
+            "platform": {
+                "id": 1,
+                "name": "Google Play",
+                "icon": "https://ivanc-api.s3.amazonaws.com/icons/platforms/google-play.svg",
+                "url": "https://play.google.com"
+            }
+        },
+        {
+            "id": 1,
+            "title": "EcoShifter",
+            "url": "http://ecoshifter.com",
+            "store_url": "https://play.google.com/store/apps/details?id=com.ecoshifter.beta",
+            "start_date": "2011-02-01",
+            "end_date": null,
+            "image": "https://ivanc-api.s3.amazonaws.com/images/ecoshifter-hero.png",
+            "color": "#318730",
+            "platform": {
+                "id": 1,
+                "name": "Google Play",
+                "icon": "https://ivanc-api.s3.amazonaws.com/icons/platforms/google-play.svg",
+                "url": "https://play.google.com"
+            }
+        }
+    ]
+
+# Group Articles
+
+Resources related to published articles.
+
+## Articles Collection [/articles]
+
+### List all articles [GET]
+
++ Response 200 (application/json)
+
+    [
+        {
+            "id": 1,
+            "title": "Android Application Architecture",
+            "url": "https://labs.ribot.co.uk/android-application-architecture-8b6e34acda65",
+            "publish_date": "2015-12-01",
+            "image": "https://ivanc-api.s3.amazonaws.com/images/architecture-hero.png",
+            "color": "#687A4A",
+            "platform": {
+                "id": 3,
+                "name": "Medium",
+                "icon": "https://ivanc-api.s3.amazonaws.com/icons/platforms/medium-small.svg",
+                "url": "https://medium.com"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Loading images with data binding and Picasso",
+            "url": "https://medium.com/android-news/loading-images-with-data-binding-and-picasso-555dad683fdc",
+            "publish_date": "2015-09-26",
+            "image": "https://ivanc-api.s3.amazonaws.com/images/data-binding-hero.png",
+            "color": "#D26D64",
+            "platform": {
+                "id": 3,
+                "name": "Medium",
+                "icon": "https://ivanc-api.s3.amazonaws.com/icons/platforms/medium-small.svg",
+                "url": "https://medium.com"
+            }
+        }
+    ]
+
+# Group Repositories
+
+Resources related to open source repositories.
+
+## Repositories Collection [/repos]
+
+### List all repositories [GET]
+
++ Response 200 (application/json)
+
+    [
+        {
+            "id": 5,
+            "title": "Archi",
+            "subtitle": "Showcase Android architectures",
+            "url": "https://github.com/ivacf/archi",
+            "start_date": "2015-09-01",
+            "end_date": null,
+            "image": "https://ivanc-api.s3.amazonaws.com/images/archi-hero.png",
+            "color": "#3F51B5",
+            "platform": {
+                "id": 2,
+                "name": "GitHub",
+                "icon": "https://ivanc-api.s3.amazonaws.com/icons/platforms/github-small.svg",
+                "url": "https://github.com"
+            },
+            "stars": 1910
+        },
+        {
+            "id": 4,
+            "title": "Android Boilerplate",
+            "subtitle": "Reference Android project",
+            "url": "https://github.com/ribot/android-boilerplate",
+            "start_date": "2015-04-01",
+            "end_date": null,
+            "image": "https://ivanc-api.s3.amazonaws.com/images/boilerplate-hero.png",
+            "color": "#4A4A4A",
+            "platform": {
+                "id": 2,
+                "name": "GitHub",
+                "icon": "https://ivanc-api.s3.amazonaws.com/icons/platforms/github-small.svg",
+                "url": "https://github.com"
+            },
+            "stars": 1420
+        }
+    ]
