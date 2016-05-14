@@ -1,15 +1,16 @@
 {
   "name": "ivanc-web",
   "version": "1.0.0",
-  "description": "Ivan Carballo personal website built with React JS",
+  "description": "Personal website built with React",
   "scripts": {
     "heroku-postbuild": "npm run build",
     "build": "webpack --config ./webpack.prod.config.js --progress --colors",
     "start": "node server.js"
   },
   "author": "Ivan Carballo",
-  "license": "MIT",
+  "license": "Apache 2.0",
   "devDependencies": {
+    "react-hot-loader": "^1.3.0",
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.10.0"
   },
