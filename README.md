@@ -52,13 +52,13 @@ This app can be deployed as a Django application on Heroku or Dokku. The followi
 * `DJANGO_SECRET_KEY`: A random key used by Django. More info [here](https://docs.djangoproject.com/en/1.9/ref/settings/#std:setting-SECRET_KEY). 
 * `DATABASE_URL`: Pointing to a PostgreSQL database. This variable is usually set up automatically by Heroku or Dokku after linking your app to a database.
 
-An AWS bucket is required to store media files. You can follow [this tutorial](https://www.caktusgroup.com/blog/2014/11/10/Using-Amazon-S3-to-store-your-Django-sites-static-and-media-files/) to create an AWS bucket with the right permissons. Once that is done, you must point Django to your AWS bucket by adding these three env variables: 
+An AWS bucket is required to store media files. You can follow [this tutorial](https://www.caktusgroup.com/blog/2014/11/10/Using-Amazon-S3-to-store-your-Django-sites-static-and-media-files/) to create an AWS bucket with the right permissions. Once that is done, you must point Django to your AWS bucket by adding these three env variables: 
 
 * `AWS_ACCESS_KEY_ID`
 * `AWS_SECRET_ACCESS_KEY`
 * `AWS_STORAGE_BUCKET_NAME`
 
-The `/repos` endpoing uses the GitHub API to pull data about repositories. The call doesn't require any authentication, however the GitHub API has very low [rate limits](https://developer.github.com/v3/rate_limit/) when performing non-authenticated calls. If you want to increase this limit to avoid problem you can [create a GitHub OAuth application](https://github.com/settings/applications/new) and use the generated values to set up two more variables:
+The `/repos` endpoint uses the GitHub API to pull data about repositories. The call doesn't require any authentication, however the GitHub API has very low [rate limits](https://developer.github.com/v3/rate_limit/) when performing non-authenticated calls. If you want to increase this limit to avoid problem you can [create a GitHub OAuth application](https://github.com/settings/applications/new) and use the generated values to set up two more variables:
 
 * `GITHUB_CLIENT_ID`
 * `GITHUB_CLIENT_SECRET`
