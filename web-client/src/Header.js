@@ -8,7 +8,7 @@ var Header = React.createClass({
     return {
       name: 'Iván Carballo',
       avatar: 'http://ivanc.uk/images/ivan-circle.png',
-      summary: 'I’m a software engineer passionate about building meaningful things by writing elegant code. I currently work at ribot creating innovative Android apps. You can check out some of my work below.',
+      summary: 'I’m a software engineer passionate about creating meaningful products by writing elegant code. I currently work at Monzo building a new type of bank. You can check out some of my work below.',
       social: [
         {id: 1, name: 'GitHub', url: 'https://github.com/ivacf', icon:'images/github.svg'},
         {id: 4, name: 'Medium', url: 'https://medium.com/@ivanc', icon:'images/medium.svg'},
