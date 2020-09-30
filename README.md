@@ -1,4 +1,4 @@
-# ivanc
+# ivanc an amazing projector
 
 This repository contains two applications: 
 
