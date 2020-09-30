@@ -13,6 +13,7 @@ Source code located under `/web-client`. This React app is set up with [Webpack]
 [Express](http://expressjs.com/) so that the React components are rendered in the server side. 
 
 #### Getting started
+#installing app dependencies
 1. `npm install`: install app dependencies.
 3. Make sure the companion API app is running at`http://localhost:8000/`  
 4. `npm start`: start the dev server at `http://localhost:3000/`
