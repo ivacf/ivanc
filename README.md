@@ -1,3 +1,4 @@
+logr - an amazing project
 # ivanc
 
 This repository contains two applications: 
