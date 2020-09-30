@@ -1,4 +1,4 @@
-# ivanc
+# ivanc #amazing version
 
 This repository contains two applications: 
 
