@@ -1,4 +1,4 @@
-# ivanc
+# ivanc  AN AMAZING PROJECT
 
 This repository contains two applications: 
 
