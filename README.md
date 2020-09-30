@@ -63,7 +63,7 @@ The `/repos` endpoint uses the GitHub API to pull data about repositories. The c
 * `GITHUB_CLIENT_ID`
 * `GITHUB_CLIENT_SECRET`
 
-## License
+## License(Subscribetion)
 
 ```
   Copyright 2016 Ivan Carballo.
