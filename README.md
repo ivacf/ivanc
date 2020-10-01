@@ -30,6 +30,7 @@ There are a couple of **environment variables** that need setting up before depl
 * `API_BASE_URL`: The URL where the Django server app is deployed. e.g. https://api.ivanc.uk/
 * `GA_TRACKING_CODE`: Your Google Analytics tracking code.
 
+ivanc - an amazing project
 
 ## Django server app
 
