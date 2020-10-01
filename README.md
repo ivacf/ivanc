@@ -14,7 +14,7 @@ Source code located under `/web-client`. This React app is set up with [Webpack]
 
 #### Getting started
 1. `npm install`: install app dependencies.
-3. Make sure the companion API app is running at`http://localhost:8000/`  
+3. Make sure that companion API app is running at`http://localhost:8000/`  
 4. `npm start`: start the dev server at `http://localhost:3000/`
 5. Modify any of the components under [`/src`](web-client/src) and see the changes in real time thanks to
 [React Hot loader](https://github.com/gaearon/react-hot-loader)
