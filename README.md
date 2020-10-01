@@ -1,6 +1,6 @@
 # ivanc
 
-This repository contains two applications: 
+This repository contains a total of two applications: 
 
 1. A [React app](/web-client) that displays information about the author and his/her work as a software developer.
 See deployed at http://ivanc.uk
