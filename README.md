@@ -1,4 +1,4 @@
-# ivanc
+# ivanc - amazing work , but need to upgrade
 
 This repository contains two applications: 
 
