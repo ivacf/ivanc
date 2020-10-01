@@ -65,7 +65,6 @@ The `/repos` endpoint uses the GitHub API to pull data about repositories. The c
 
 ## License
 
-```
   Copyright 2016 Ivan Carballo.
 
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -79,4 +78,3 @@ The `/repos` endpoint uses the GitHub API to pull data about repositories. The c
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
-```
