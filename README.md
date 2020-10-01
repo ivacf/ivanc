@@ -1,4 +1,4 @@
-# ivanc
+# ivanc-county
 
 This repository contains two applications: 
 
