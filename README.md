@@ -1,4 +1,4 @@
-# ivanc
+# ivanc -- Mix React and Django
 
 This repository contains two applications: 
 
