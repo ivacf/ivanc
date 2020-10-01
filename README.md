@@ -58,7 +58,7 @@ An AWS bucket is required to store media files. You can follow [this tutorial](h
 * `AWS_SECRET_ACCESS_KEY`
 * `AWS_STORAGE_BUCKET_NAME`
 
-The `/repos` endpoint uses the GitHub API to pull data about repositories. The call doesn't require any authentication, however the GitHub API has very low [rate limits](https://developer.github.com/v3/rate_limit/) when performing non-authenticated calls. If you want to increase this limit to avoid problem you can [create a GitHub OAuth application](https://github.com/settings/applications/new) and use the generated values to set up two more variables:
+The `/repos` endpoint uses the GitHub API to pull the data about repositories. The call doesn't require any authentication, however the GitHub API has very low [rate limits](https://developer.github.com/v3/rate_limit/) when performing non-authenticated calls. If you want to increase this limit to avoid problem you can [create a GitHub OAuth application](https://github.com/settings/applications/new) and use the generated values to set up two more variables:
 
 * `GITHUB_CLIENT_ID`
 * `GITHUB_CLIENT_SECRET`
