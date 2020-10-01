@@ -1,4 +1,4 @@
-# ivanc
+# IVANC
 
 This repository contains two applications: 
 
