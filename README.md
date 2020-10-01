@@ -1,3 +1,5 @@
+An intriguing project
+
 # ivanc
 
 This repository contains two applications: 
@@ -33,7 +35,7 @@ There are a couple of **environment variables** that need setting up before depl
 
 ## Django server app
 
-Source code located under `/server`. This Django API provides data such as a list of apps, articles and open source repositories through a REST API. It also provides an admin panel that allows adding, deleting and amending data with ease. It's implemented using [Django REST Framework](http://www.django-rest-framework.org/). 
+Source code located under `/server`. This Django API provides data such as a list of apps, articles and open source repositories through a REST API. It also provides for an admin panel that allows adding, deleting and amending data with ease. It's implemented using [Django REST Framework](http://www.django-rest-framework.org/). 
 
 #### Getting started
 * Create a Python virtual environment under `/server`. You can follow [this guide](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
@@ -43,7 +45,7 @@ Source code located under `/server`. This Django API provides data such as a lis
 * Now you're ready to run the dev server: `python manage.py runserver`
 
 #### Testing
-This Django project contains test for all endpoints. You can run them with `python manage.py test`. Some endpoints call external APIs. In order to avoid flaky tests, these external interactions are mocked using [VCR.py](https://github.com/kevin1024/vcrpy). Note the first time you run them they will perform real HTTP interactions. Consecutive executions will reuse the first response and the tests will no longer call the external API. 
+This Django project contains test for all the endpoints. You can run them with `python manage.py test`. Some endpoints call external APIs. In order to avoid flaky tests, these external interactions are mocked using [VCR.py](https://github.com/kevin1024/vcrpy). Note the first time you run them they will perform real HTTP interactions. Consecutive executions will reuse the first response and the tests will no longer call the external API. 
 
 #### Deployment
 This app can be deployed as a Django application on Heroku or Dokku. The following **environment variables** are expected:
