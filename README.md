@@ -7,7 +7,7 @@ See deployed at http://ivanc.uk
 2. A [Django server app](/server) that assists the React app by providing data via a REST API.
 See deployed at https://api.ivanc.uk
 
-## Getting atrted with React app
+## Getting started with React app
 
 Source code located under `/web-client`. This React app is set up with [Webpack](https://webpack.github.io/) and
 [Express](http://expressjs.com/) so that the React components are rendered in the server side. 
