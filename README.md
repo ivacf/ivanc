@@ -12,14 +12,14 @@ See deployed at https://api.ivanc.uk
 Source code located under `/web-client`. This React app is set up with [Webpack](https://webpack.github.io/) and
 [Express](http://expressjs.com/) so that the React components are rendered in the server side. 
 
-#### Getting started
+#### Getting started :
 1. `npm install`: install app dependencies.
 3. Make sure the companion API app is running at`http://localhost:8000/`  
 4. `npm start`: start the dev server at `http://localhost:3000/`
 5. Modify any of the components under [`/src`](web-client/src) and see the changes in real time thanks to
 [React Hot loader](https://github.com/gaearon/react-hot-loader)
 
-#### Deployment
+#### Deployment :
 This app can be deployed as a Node application on Heroku or Dokku.
 There is a `heroku-postbuild` script in [`package.json`](web-client/package.json) so every time the app is pushed to Heroku,
 Webpack compiles the JavaScript code in production mode. Webpack outputs the result into `public/bundle.js` that is loaded
@@ -43,6 +43,7 @@ Source code located under `/server`. This Django API provides data such as a lis
 * Now you're ready to run the dev server: `python manage.py runserver`
 
 #### Testing
+
 This Django project contains test for all endpoints. You can run them with `python manage.py test`. Some endpoints call external APIs. In order to avoid flaky tests, these external interactions are mocked using [VCR.py](https://github.com/kevin1024/vcrpy). Note the first time you run them they will perform real HTTP interactions. Consecutive executions will reuse the first response and the tests will no longer call the external API. 
 
 #### Deployment
@@ -64,6 +65,8 @@ The `/repos` endpoint uses the GitHub API to pull data about repositories. The c
 * `GITHUB_CLIENT_SECRET`
 
 ## License
+
+
 
 ```
   Copyright 2016 Ivan Carballo.
