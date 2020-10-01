@@ -1,5 +1,7 @@
 # ivanc
 
+Hello & Welcome!!!!!!!
+
 This repository contains two applications: 
 
 1. A [React app](/web-client) that displays information about the author and his/her work as a software developer.
