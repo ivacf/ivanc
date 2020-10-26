@@ -20,7 +20,7 @@ Source code located under `/web-client`. This React app is set up with [Webpack]
 [React Hot loader](https://github.com/gaearon/react-hot-loader)
 
 #### Deployment
-This app can be deployed as a Node application on Heroku or Dokku.
+This app can be now deployed as a Node application on Heroku or Dokku.
 There is a `heroku-postbuild` script in [`package.json`](web-client/package.json) so every time the app is pushed to Heroku,
 Webpack compiles the JavaScript code in production mode. Webpack outputs the result into `public/bundle.js` that is loaded
 from [`index.html`](web-client/index.html). This `index.html` file is then served with Express when the root endpoint is
@@ -39,7 +39,7 @@ Source code located under `/server`. This Django API provides data such as a lis
 * Create a Python virtual environment under `/server`. You can follow [this guide](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
 * Set up the Django settings environment variable: `export DJANGO_SETTINGS_MODULE=ivanc.dev_settings`. To avoid having to do this every time you can add this line to the `activate` script file located in your virtual environment `env/bin/activate`
 * Activate the environment: `source env/bin/activate`
-* Install dependencies: `pip install -r requirements-dev.txt`
+* Install new dependencies: `pip install -r requirements-dev.txt`
 * Now you're ready to run the dev server: `python manage.py runserver`
 
 #### Testing
